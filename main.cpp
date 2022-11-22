@@ -17,7 +17,7 @@ int main(){
         cout<<Fib2<<endl;
 
         int i=0;
-        for (i=3 ; i<n; i++)
+        for (i=3 ; i<=n; i++)
         {
             numeroFibonacci = Fib2 + Fib1;
             cout<<numeroFibonacci<<endl;
